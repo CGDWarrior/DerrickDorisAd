@@ -678,3 +678,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.04-13.52.35:111][567]Cmd: MAP CHECKDEP NOCLEARLOG
 [2021.03.04-13.52.35:111][567]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.234ms to complete.
 [2021.03.04-13.52.35:111][567]LogFileHelpers: Loading map 'Base_Level' took 1.779
+[2021.03.04-13.54.12:840][948]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.03.04-13.54.13:338][948]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2021.03.04-13.54.14:983][948]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.04-13.54.15:305][948]LogSlate: Took 0.021537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.04-13.54.15:341][949]LogSlate: Took 0.010070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.04-13.54.53:229][387]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.03.04-13.54.53:346][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.03.04-13.54.54:481][425]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/ThirdPersonCharacter207B5FE8437BA42F758451A2010B8BC5.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.03.04-13.54.54:500][425]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.03.04-13.54.54:500][425]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.03.04-13.54.57:119][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
