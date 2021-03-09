@@ -3026,3 +3026,24 @@ Make sure 'Stamina_pickup_withNote_C' has been compiled for  Get Widget
 [2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/ThirdPersonBP/Maps/Level_1.umap (69%)
 [2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/Widgets/Stamina_Note.uasset (88%)
 [2021.03.09-19.01.27:117][282]SourceControl: Commited [adding-extra-player 60af9be] started to fix stamina note but not yet.
+[2021.03.09-19.02.37:704][630]LogTemp: Resetting audio stream to device id 
+[2021.03.09-19.02.37:728][630]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-19.02.37:729][630]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-19.03.02:411][631]LogTemp: Resetting audio stream to device id 
+[2021.03.09-19.03.02:452][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-19.03.02:452][631]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-19.03.04:325][632]LogTemp: Resetting audio stream to device id 
+[2021.03.09-19.03.04:365][632]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-19.03.04:365][632]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: libcurl info message cache 0 (Connection 230 seems to be dead!)
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: libcurl info message cache 1 (Closing connection 230)
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.03.09-19.03.32:108][716]LogHttp: Warning: 000001F322654800: libcurl info message cache 4 (Closing connection 231)
+[2021.03.09-19.03.32:444][717]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-19.04.33:556][894]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{cdca9a10-fff2-4357-8851-b157730d377c}.
+[2021.03.09-19.04.33:556][894]LogTemp: Resetting audio stream to device id 
+[2021.03.09-19.04.33:591][894]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-19.04.33:591][894]LogAudioMixer: Display: 1: FrontRight
