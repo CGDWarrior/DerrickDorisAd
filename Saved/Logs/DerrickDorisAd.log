@@ -2248,3 +2248,781 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.09-13.17.35:937][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Autosaves/Game/Widgets/HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
 [2021.03.09-13.17.36:244][291]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/HUD_Auto4416A907C4C56BCB67DB72893E2E0444D.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Autosaves/Game/Widgets/HUD_Auto4.uasset'
 [2021.03.09-13.17.36:245][291]LogFileHelpers: Auto-saving content packages took 0.309
+[2021.03.09-15.22.45:181][417]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.09-15.52.54:933][845]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9b4b127f-a781-49f6-b769-ef1da4cf8b11}.
+[2021.03.09-15.52.54:933][845]LogTemp: Resetting audio stream to device id 
+[2021.03.09-15.52.55:213][845]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-15.52.55:213][845]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-15.52.56:646][846]LogTemp: Resetting audio stream to device id 
+[2021.03.09-15.52.56:704][846]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-15.52.56:704][846]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-15.53.10:191][885]LogTemp: Resetting audio stream to device id 
+[2021.03.09-15.53.10:215][885]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-15.53.10:215][885]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-15.55.04:239][891]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.03.09-15.55.04:333][891]LogTemp: Resetting audio stream to device id 
+[2021.03.09-15.55.05:070][891]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-15.55.05:070][891]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-15.55.05:673][892]LogTemp: Resetting audio stream to device id 
+[2021.03.09-15.55.05:731][892]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-15.55.05:731][892]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1f2fae57f70 [can pipeline])
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 1 (Re-using existing connection! (#150) with host datarouter.ol.epicgames.com)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.232.41.11) port 443 (#150))
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: 000001F371673900: libcurl info message cache 7 (Closing connection 150)
+[2021.03.09-15.55.06:187][893]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-18.13.29:424][683]LogHttp: Warning: 000001F371673900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: request failed, libcurl error: 0 (No error)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1f2fae57f70 [can pipeline])
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 1 (Re-using existing connection! (#207) with host datarouter.ol.epicgames.com)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.210.146.49) port 443 (#207))
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 7 (Closing connection 207)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: 000001F371673900: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.03.09-18.13.29:425][683]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-18.15.41:023][ 76]LogHttp: Warning: 000001F371673900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-18.15.41:023][ 76]LogHttp: Warning: 000001F371673900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.03.09-18.15.41:023][ 76]LogHttp: Warning: 000001F371673900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.03.09-18.15.41:023][ 76]LogHttp: Warning: 000001F371673900: libcurl info message cache 1 (Closing connection 208)
+[2021.03.09-18.15.41:355][ 77]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-18.17.52:900][470]LogHttp: Warning: 000001F371673900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-18.17.52:900][470]LogHttp: Warning: 000001F371673900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.03.09-18.17.52:900][470]LogHttp: Warning: 000001F371673900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.03.09-18.17.52:900][470]LogHttp: Warning: 000001F371673900: libcurl info message cache 1 (Closing connection 209)
+[2021.03.09-18.17.53:233][471]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-18.19.53:713][831]LogHttp: Warning: 000001F371673900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.09-18.19.53:713][831]LogHttp: Warning: 000001F371673900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.03.09-18.19.53:713][831]LogHttp: Warning: 000001F371673900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.03.09-18.19.53:713][831]LogHttp: Warning: 000001F371673900: libcurl info message cache 1 (Closing connection 210)
+[2021.03.09-18.19.53:713][831]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50B1BD06-4BE8-9D51-1D8D-B9BC28DEF635%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=2cec70f243338d3c50d9e1b8d0f22c3a%7Cb6243b59b4f340188a92e1cc097b3f14%7C23836197-5400-4566-b2dd-172e5a40bdd1&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.09-18.24.24:408][900]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.24.24:418][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.24.24:700][900]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.24.24:701][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.26.11:502][235]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2021.03.09-18.26.11:514][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Base_Level' took 0.301
+[2021.03.09-18.26.11:517][235]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Interact_Notes/Photo_Parent] ([1] browsable assets)...
+[2021.03.09-18.26.11:601][235]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Models/Interact_Notes/Photo_Parent.Photo_Parent]
+[2021.03.09-18.26.11:601][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Interact_Notes/Photo_Parent]
+[2021.03.09-18.26.11:646][235]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Photo_Parent_Auto51B3A9B194FF65EEE363712891B1D43F9.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Autosaves/Game/Models/Interact_Notes/Photo_Parent_Auto5.uasset'
+[2021.03.09-18.26.11:647][235]LogFileHelpers: Auto-saving content packages took 0.131
+[2021.03.09-18.27.34:868][701]BlueprintLog: New page: Compile Photo_Parent
+[2021.03.09-18.27.34:969][701]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.03.09-18.27.35:616][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Interact_Notes/Photo_Parent" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Interact_Notes/Photo_Parent.uasset" SILENT=true
+[2021.03.09-18.27.35:643][729]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Photo_ParentCC0F7C004403C5034F9D69AEB7413917.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Interact_Notes/Photo_Parent.uasset'
+[2021.03.09-18.27.35:659][729]AssetCheck: New page: Asset Save: Photo_Parent
+[2021.03.09-18.27.35:659][729]LogContentValidation: Display: Validating Blueprint /Game/Models/Interact_Notes/Photo_Parent.Photo_Parent
+[2021.03.09-18.27.40:125][995]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.27.40:159][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.27.40:159][995]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:27:40)
+[2021.03.09-18.27.40:182][995]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.27.40:190][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008136s)
+[2021.03.09-18.27.40:191][995]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.27.40:191][995]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F33EEFB800), frame # 330995
+[2021.03.09-18.27.40:191][995]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F32927D800), frame # 330995
+[2021.03.09-18.27.40:192][995]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2021.03.09-18.27.40:192][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.010061s)
+[2021.03.09-18.27.40:229][995]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.27.40:230][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.27.40:230][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.27.40:231][995]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.27.40:231][995]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.27.40:234][995]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.27.40:234][995]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.27.40:397][995]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.27.40:397][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.27.40:397][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.27.40:397][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.27.40:399][995]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.27.40:412][995]LogInit: FAudioDevice initialized.
+[2021.03.09-18.27.40:431][995]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.27.40:433][995]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.27.40
+[2021.03.09-18.27.40:433][995]LogWorld: Bringing up level for play took: 0.000627
+[2021.03.09-18.27.40:433][995]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.03.09-18.27.40:437][995]PIE: Server logged in
+[2021.03.09-18.27.40:438][995]PIE: Play in editor total start time 0.285 seconds.
+[2021.03.09-18.27.40:439][995]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.27.40:439][995]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.27.40:455][995]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.27.40:458][995]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.27.40:462][995]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.28.06:514][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.28.06:514][544]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.28.06:515][544]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.28.06:515][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.28.06:521][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.28.06:525][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.28.06:575][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.28.06:576][544]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F32927D800), frame # 332544
+[2021.03.09-18.28.06:576][544]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F33EEFB800), frame # 332544
+[2021.03.09-18.28.06:579][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.03.09-18.28.06:610][545]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.03.09-18.28.06:641][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.03.09-18.28.57:346][ 99]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Stamina_Note.Stamina_Note
+[2021.03.09-18.30.06:176][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.09-18.30.06:209][188]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_LevelCD50387E41E6D858A10DB39112DC4670.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level.umap'
+[2021.03.09-18.30.06:333][188]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_Level_BuiltData62FC35674CF9D992DCDC148332D0501F.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level_BuiltData.uasset'
+[2021.03.09-18.30.06:349][188]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-18.30.06:349][188]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Base_Level.Base_Level
+[2021.03.09-18.30.06:349][188]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Base_Level_BuiltData.Base_Level_BuiltData
+[2021.03.09-18.30.07:717][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.03.09-18.30.09:437][261]LogSlate: Window 'Save Content' being destroyed
+[2021.03.09-18.30.09:640][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.03.09-18.30.09:660][261]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1FA07F38A4CC6035DD997A8AAB5B3246A.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1.umap'
+[2021.03.09-18.30.09:662][261]LogFileHelpers: Saving map 'Level_1' took 0.056
+[2021.03.09-18.30.09:662][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-18.30.09:680][261]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltData50863BBB441A110FE0CD8094FE1DEFAF.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-18.30.09:682][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-18.30.09:696][261]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltData9B42A0A24F070887B2AA8A989F35AA39.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-18.30.09:697][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/HUD.uasset" SILENT=true
+[2021.03.09-18.30.09:717][261]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/HUDA1BA113F465C17C3073EF0900113B2FB.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/HUD.uasset'
+[2021.03.09-18.30.09:744][261]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-18.30.09:744][261]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level_1.Level_1
+[2021.03.09-18.30.09:744][261]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level_1_BuiltData.Level_1_BuiltData
+[2021.03.09-18.30.09:744][261]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/HUD.HUD
+[2021.03.09-18.30.39:608][ 43]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Models/Interact_Notes/Interact.Interact
+[2021.03.09-18.31.50:697][250]BlueprintLog: New page: Compile Stamina_Note
+[2021.03.09-18.31.50:756][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.03.09-18.31.51:884][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Stamina_Note" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset" SILENT=true
+[2021.03.09-18.31.51:968][307]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_Note8BEA714D46BE46E0D99AF5B71B002DBE.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset'
+[2021.03.09-18.31.51:980][307]AssetCheck: New page: Asset Save: Stamina_Note
+[2021.03.09-18.31.51:980][307]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Stamina_Note.Stamina_Note
+[2021.03.09-18.32.07:201][211]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.35.49:059][398]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.35.49:141][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.03.09-18.35.50:193][445]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote8DD7343045AE2A65E8B0988152B5566D.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.35.50:209][445]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.35.50:209][445]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.36.44:806][691]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.09-18.37.32:084][436]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.37.32:087][436]LogBlueprint: Warning: [Compiler Stamina_pickup_withNote] Could not find a variable named "Widget" in 'Stamina_pickup_withNote_C'.
+Make sure 'Stamina_pickup_withNote_C' has been compiled for  Get Widget
+[2021.03.09-18.37.32:087][436]LogBlueprint: Warning: [Compiler Stamina_pickup_withNote] Could not find a variable named "Widget" in 'Stamina_pickup_withNote_C'.
+Make sure 'Stamina_pickup_withNote_C' has been compiled for  Get Widget
+[2021.03.09-18.37.32:089][436]LogBlueprint: Error: [Compiler Stamina_pickup_withNote] The property associated with  Widget  could not be found in '/Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C'
+[2021.03.09-18.37.32:089][436]LogBlueprint: Error: [Compiler Stamina_pickup_withNote] The property associated with  Widget  could not be found in '/Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C'
+[2021.03.09-18.37.32:157][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.03.09-18.37.34:515][564]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNoteD3D34B6446DCF1FBCA7632A158D5C458.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.37.34:528][564]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.37.34:528][564]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.38.18:128][149]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.38.18:194][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.03.09-18.38.18:988][184]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote3EFA411B49017671E1D1F996BA1F1735.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.38.19:003][184]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.38.19:003][184]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.38.39:142][380]BlueprintLog: New page: Compile Stamina_Note
+[2021.03.09-18.38.39:205][380]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.03.09-18.38.39:771][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Stamina_Note" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset" SILENT=true
+[2021.03.09-18.38.39:791][403]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_Note6EEFA62949CF9F31D56560B86380433E.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset'
+[2021.03.09-18.38.39:806][403]AssetCheck: New page: Asset Save: Stamina_Note
+[2021.03.09-18.38.39:806][403]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Stamina_Note.Stamina_Note
+[2021.03.09-18.39.03:725][824]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.03.09-18.39.05:473][824]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.09-18.39.08:139][824]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.39.08:139][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.39.08:209][824]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Interact_Notes/Photo_1.Photo_1
+[2021.03.09-18.39.10:422][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.03.09-18.39.10:803][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.03.09-18.39.10:845][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.03.09-18.39.10:881][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.03.09-18.39.11:111][824]SourceControl: Error: Updated 0 paths from the index
+[2021.03.09-18.39.11:248][824]SourceControl: rm 'Content/Models/Interact_Notes/Photo_1.uasset'
+[2021.03.09-18.39.17:906][208]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.03.09-18.39.17:934][208]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_Level3D41129D441CD911EAFA799BDEC191E8.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level.umap'
+[2021.03.09-18.39.18:083][208]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_Level_BuiltDataBD8A735F453FB2ABDCD8969A886E4FFC.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level_BuiltData.uasset'
+[2021.03.09-18.39.18:099][208]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-18.39.18:099][208]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Base_Level.Base_Level
+[2021.03.09-18.39.18:099][208]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Base_Level_BuiltData.Base_Level_BuiltData
+[2021.03.09-18.39.19:325][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.03.09-18.39.20:412][274]LogSlate: Window 'Save Content' being destroyed
+[2021.03.09-18.39.20:588][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.03.09-18.39.20:611][274]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_14CB44446409F4275BA0508B934EC2F1A.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1.umap'
+[2021.03.09-18.39.20:612][274]LogFileHelpers: Saving map 'Level_1' took 0.063
+[2021.03.09-18.39.20:612][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-18.39.20:628][274]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltData8256A9994A677CAB70D5FDAECC7A7F37.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-18.39.20:630][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-18.39.20:645][274]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltDataDCDDFFF5417F2FAF1E760AB5E8E3E320.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-18.39.20:684][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.03.09-18.39.20:709][274]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_54EEFB631418CAD595F570485FD5EAF14.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5.umap'
+[2021.03.09-18.39.20:710][274]LogFileHelpers: Saving map 'Level_5' took 0.064
+[2021.03.09-18.39.20:711][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_5_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5_BuiltData.uasset" SILENT=true
+[2021.03.09-18.39.20:728][274]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_5_BuiltData52854F1F49ADBB3EF01B6CA6C015A518.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5_BuiltData.uasset'
+[2021.03.09-18.39.20:756][274]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-18.39.20:756][274]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level_1.Level_1
+[2021.03.09-18.39.20:756][274]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level_1_BuiltData.Level_1_BuiltData
+[2021.03.09-18.39.20:756][274]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level_5.Level_5
+[2021.03.09-18.39.20:756][274]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level_5_BuiltData.Level_5_BuiltData
+[2021.03.09-18.39.52:376][159]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.39.52:396][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.39.52:396][159]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:39:52)
+[2021.03.09-18.39.52:396][159]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.39.52:405][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008380s)
+[2021.03.09-18.39.52:406][159]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.39.52:406][159]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F2F3D34E00), frame # 371159
+[2021.03.09-18.39.52:406][159]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2BBE81A80), frame # 371159
+[2021.03.09-18.39.52:406][159]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2021.03.09-18.39.52:406][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.009726s)
+[2021.03.09-18.39.52:446][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.39.52:450][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.39.52:450][159]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.39.52:450][159]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.39.52:453][159]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.39.52:453][159]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.39.52:599][159]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.39.52:599][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.39.52:599][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.39.52:599][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.39.52:600][159]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.39.52:616][159]LogInit: FAudioDevice initialized.
+[2021.03.09-18.39.52:626][159]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.39.52:627][159]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.39.52
+[2021.03.09-18.39.52:627][159]LogWorld: Bringing up level for play took: 0.000716
+[2021.03.09-18.39.52:628][159]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.03.09-18.39.52:633][159]PIE: Server logged in
+[2021.03.09-18.39.52:634][159]PIE: Play in editor total start time 0.242 seconds.
+[2021.03.09-18.39.52:635][159]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.39.52:635][159]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.39.52:700][159]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.39.52:715][159]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.39.52:720][159]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.40.02:453][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.40.02:453][734]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.40.02:454][734]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.40.02:454][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.40.02:462][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.40.02:466][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.40.02:524][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.40.02:525][734]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2BBE81A80), frame # 371734
+[2021.03.09-18.40.02:525][734]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F2F3D34E00), frame # 371734
+[2021.03.09-18.40.02:528][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.03.09-18.40.02:564][735]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.03.09-18.40.02:608][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.09-18.40.10:779][196]LogSlate: Window 'Tutorials' being destroyed
+[2021.03.09-18.40.40:858][952]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.03.09-18.40.56:767][876]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.03.09-18.40.56:838][876]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2021.03.09-18.40.57:514][901]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/ThirdPersonGameModeDC3496BE41309BC3D88AB99521042C4D.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2021.03.09-18.40.57:531][901]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2021.03.09-18.40.57:531][901]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.03.09-18.41.01:834][158]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.41.01:852][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.41.01:852][158]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:41:01)
+[2021.03.09-18.41.01:852][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.41.01:856][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003986s)
+[2021.03.09-18.41.01:857][158]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.41.01:857][158]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F36FA06200), frame # 375158
+[2021.03.09-18.41.01:857][158]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2F082CE00), frame # 375158
+[2021.03.09-18.41.01:858][158]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2021.03.09-18.41.01:858][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.005250s)
+[2021.03.09-18.41.01:897][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.41.01:898][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.41.01:899][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.41.01:899][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.41.01:899][158]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.41.01:899][158]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.41.01:902][158]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.41.01:902][158]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.41.02:050][158]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.41.02:050][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.41.02:050][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.41.02:050][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.41.02:050][158]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.41.02:066][158]LogInit: FAudioDevice initialized.
+[2021.03.09-18.41.02:075][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.41.02:076][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.41.02
+[2021.03.09-18.41.02:076][158]LogWorld: Bringing up level for play took: 0.000502
+[2021.03.09-18.41.02:076][158]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.03.09-18.41.02:080][158]PIE: Server logged in
+[2021.03.09-18.41.02:081][158]PIE: Play in editor total start time 0.232 seconds.
+[2021.03.09-18.41.02:082][158]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.41.02:082][158]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.41.02:092][158]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.41.02:096][158]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.41.02:098][158]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.41.31:430][906]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:040E
+[2021.03.09-18.41.31:430][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-18.41.36:730][224]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:040E
+[2021.03.09-18.41.36:731][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-18.41.42:623][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.41.42:623][575]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.41.42:624][575]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.41.42:624][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.41.42:632][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.41.42:637][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.41.42:687][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.41.42:689][575]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2F082CE00), frame # 377575
+[2021.03.09-18.41.42:689][575]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F36FA06200), frame # 377575
+[2021.03.09-18.41.42:692][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.09-18.41.42:826][576]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.03.09-18.41.42:886][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.03.09-18.41.44:748][679]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.41.44:758][679]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.42.10:129][196]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.09-18.42.15:691][522]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.42.15:756][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.03.09-18.42.34:379][626]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.42.34:398][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.42.34:398][626]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:42:34)
+[2021.03.09-18.42.34:398][626]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.42.34:402][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003579s)
+[2021.03.09-18.42.34:403][626]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.42.34:403][626]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F2F3D9C400), frame # 380626
+[2021.03.09-18.42.34:403][626]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2B92CE840), frame # 380626
+[2021.03.09-18.42.34:403][626]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2021.03.09-18.42.34:403][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.004912s)
+[2021.03.09-18.42.34:441][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.42.34:442][626]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.42.34:442][626]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.42.34:443][626]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.42.34:443][626]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.42.34:445][626]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.42.34:445][626]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.42.34:571][626]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.42.34:571][626]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.42.34:571][626]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.42.34:571][626]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.42.34:571][626]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.42.34:584][626]LogInit: FAudioDevice initialized.
+[2021.03.09-18.42.34:621][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.42.34:621][626]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.42.34:622][626]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.42.34
+[2021.03.09-18.42.34:622][626]LogWorld: Bringing up level for play took: 0.000545
+[2021.03.09-18.42.34:622][626]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.03.09-18.42.34:627][626]PIE: Server logged in
+[2021.03.09-18.42.34:628][626]PIE: Play in editor total start time 0.234 seconds.
+[2021.03.09-18.42.34:651][626]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.42.34:651][626]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.42.34:665][626]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.42.34:675][626]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.42.34:678][626]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.42.34:693][627]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.03.09-18.42.36:574][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.42.36:574][724]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.42.36:574][724]LogSlate: Window 'DerrickDorisAd Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.09-18.42.36:579][724]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.42.36:579][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.42.36:588][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.42.36:592][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.42.36:644][724]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2B92CE840), frame # 380724
+[2021.03.09-18.42.36:644][724]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F2F3D9C400), frame # 380724
+[2021.03.09-18.42.36:646][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.03.09-18.42.36:669][725]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.03.09-18.42.36:708][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.03.09-18.43.27:206][736]BlueprintLog: New page: Compile Stamina_Note
+[2021.03.09-18.43.27:275][736]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.03.09-18.43.27:963][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Stamina_Note" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset" SILENT=true
+[2021.03.09-18.43.27:975][768]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_Note6B010A9B4CA4DB0CA1BC1D886268DCD3.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Widgets/Stamina_Note.uasset'
+[2021.03.09-18.43.27:988][768]AssetCheck: New page: Asset Save: Stamina_Note
+[2021.03.09-18.43.27:988][768]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Stamina_Note.Stamina_Note
+[2021.03.09-18.43.32:806][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.43.32:823][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.43.32:823][ 53]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:43:32)
+[2021.03.09-18.43.32:823][ 53]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.43.32:826][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003317s)
+[2021.03.09-18.43.32:827][ 53]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.43.32:827][ 53]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3F5478600), frame # 384053
+[2021.03.09-18.43.32:827][ 53]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F33BBE4400), frame # 384053
+[2021.03.09-18.43.32:827][ 53]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2021.03.09-18.43.32:827][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.004362s)
+[2021.03.09-18.43.32:863][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.09-18.43.32:863][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.43.32:864][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.43.32:864][ 53]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.43.32:864][ 53]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.43.32:866][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.43.32:866][ 53]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.43.32:989][ 53]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.43.32:989][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.43.32:989][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.43.32:989][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.43.32:990][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.43.33:002][ 53]LogInit: FAudioDevice initialized.
+[2021.03.09-18.43.33:010][ 53]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.43.33:011][ 53]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.43.33
+[2021.03.09-18.43.33:011][ 53]LogWorld: Bringing up level for play took: 0.000424
+[2021.03.09-18.43.33:011][ 53]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.03.09-18.43.33:014][ 53]PIE: Server logged in
+[2021.03.09-18.43.33:015][ 53]PIE: Play in editor total start time 0.196 seconds.
+[2021.03.09-18.43.33:018][ 53]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.43.33:018][ 53]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.43.33:025][ 53]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.43.33:035][ 53]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.43.33:044][ 53]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.43.53:063][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.43.53:063][243]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.43.53:064][243]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.43.53:064][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.43.53:071][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.43.53:075][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.43.53:125][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.43.53:126][243]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F33BBE4400), frame # 385243
+[2021.03.09-18.43.53:126][243]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F3F5478600), frame # 385243
+[2021.03.09-18.43.53:129][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.09-18.43.53:162][244]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.03.09-18.43.53:199][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.03.09-18.47.18:530][551]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.09-18.47.22:909][811]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.47.22:977][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.03.09-18.47.23:631][836]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNoteA98A5D3A4E692139A5E9078F25D90B94.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.47.23:643][836]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.47.23:643][836]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.47.51:504][507]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.47.51:526][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.47.51:526][507]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:47:51)
+[2021.03.09-18.47.51:551][507]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.47.51:555][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003849s)
+[2021.03.09-18.47.51:555][507]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.47.51:556][507]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3E8AC1C00), frame # 399507
+[2021.03.09-18.47.51:556][507]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2F3D802C0), frame # 399507
+[2021.03.09-18.47.51:556][507]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2021.03.09-18.47.51:556][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.005115s)
+[2021.03.09-18.47.51:592][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.47.51:593][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.47.51:593][507]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.47.51:593][507]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.47.51:595][507]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.47.51:595][507]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.47.51:718][507]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.47.51:719][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.47.51:719][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.47.51:719][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.47.51:719][507]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.47.51:731][507]LogInit: FAudioDevice initialized.
+[2021.03.09-18.47.51:738][507]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.47.51:739][507]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.47.51
+[2021.03.09-18.47.51:739][507]LogWorld: Bringing up level for play took: 0.000433
+[2021.03.09-18.47.51:739][507]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.03.09-18.47.51:743][507]PIE: Server logged in
+[2021.03.09-18.47.51:744][507]PIE: Play in editor total start time 0.222 seconds.
+[2021.03.09-18.47.51:745][507]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.47.51:745][507]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.47.51:754][507]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.47.51:756][507]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.47.51:762][507]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.48.26:587][591]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:040E
+[2021.03.09-18.48.26:587][591]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-18.49.59:186][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.49.59:186][127]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.49.59:187][127]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.49.59:187][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.49.59:193][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.49.59:197][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.49.59:248][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.49.59:249][127]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2F3D802C0), frame # 407127
+[2021.03.09-18.49.59:249][127]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F3E8AC1C00), frame # 407127
+[2021.03.09-18.49.59:252][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.03.09-18.49.59:359][128]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.03.09-18.49.59:406][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.03.09-18.50.47:430][980]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.50.47:497][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.09-18.50.48:246][ 12]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote531A16054F1C674622F5A9A723594218.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.50.48:259][ 12]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.50.48:259][ 12]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.52.39:872][568]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.52.39:889][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.52.39:889][568]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:52:39)
+[2021.03.09-18.52.39:889][568]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.52.39:893][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003747s)
+[2021.03.09-18.52.39:894][568]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.52.39:894][568]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F3E110C400), frame # 416568
+[2021.03.09-18.52.39:894][568]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F3F50F91C0), frame # 416568
+[2021.03.09-18.52.39:894][568]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2021.03.09-18.52.39:894][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.005067s)
+[2021.03.09-18.52.39:931][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.52.39:932][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.52.39:932][568]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.52.39:932][568]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.52.39:935][568]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.52.39:935][568]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.52.40:049][568]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.52.40:049][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.52.40:049][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.52.40:049][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.52.40:049][568]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.52.40:062][568]LogInit: FAudioDevice initialized.
+[2021.03.09-18.52.40:068][568]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.52.40:069][568]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.52.40
+[2021.03.09-18.52.40:069][568]LogWorld: Bringing up level for play took: 0.000469
+[2021.03.09-18.52.40:070][568]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2021.03.09-18.52.40:073][568]PIE: Server logged in
+[2021.03.09-18.52.40:073][568]PIE: Play in editor total start time 0.189 seconds.
+[2021.03.09-18.52.40:077][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.52.40:078][568]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.52.40:087][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.52.40:089][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.52.40:090][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.53.08:954][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.53.08:954][292]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.53.08:955][292]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:040E
+[2021.03.09-18.53.08:955][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-18.53.08:956][292]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.53.08:956][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.53.08:964][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.53.08:970][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.53.09:025][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.53.09:027][292]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F3F50F91C0), frame # 418292
+[2021.03.09-18.53.09:027][292]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F3E110C400), frame # 418292
+[2021.03.09-18.53.09:029][292]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.03.09-18.53.09:102][293]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2021.03.09-18.53.09:144][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.03.09-18.53.12:994][512]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.53.12:999][512]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.53.40:315][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.03.09-18.53.40:334][139]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_Auto65FFFD0EF4B74BAEE3EB57EBB03D5D109.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Autosaves/Game/ThirdPersonBP/Maps/Level_1_Auto6.umap'
+[2021.03.09-18.53.40:356][139]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_5_Auto653FADF404D48BAD468A131A1E515CDCF.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Autosaves/Game/ThirdPersonBP/Maps/Level_5_Auto6.umap'
+[2021.03.09-18.53.40:357][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Base_Level' took 0.075
+[2021.03.09-18.53.40:357][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2021.03.09-18.56.02:753][669]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.56.02:821][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.09-18.56.03:509][691]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote56243797459F9F489F551E92345EBB2C.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.56.03:522][691]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.56.03:522][691]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.56.04:996][780]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.56.05:013][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.56.05:013][780]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:56:05)
+[2021.03.09-18.56.05:014][780]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.56.05:017][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003337s)
+[2021.03.09-18.56.05:018][780]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.56.05:018][780]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F41044BE00), frame # 428780
+[2021.03.09-18.56.05:018][780]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F33EDC1080), frame # 428780
+[2021.03.09-18.56.05:018][780]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2021.03.09-18.56.05:018][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.004323s)
+[2021.03.09-18.56.05:054][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.56.05:055][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.56.05:055][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.56.05:056][780]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.56.05:056][780]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.56.05:058][780]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.56.05:058][780]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.56.05:172][780]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.56.05:172][780]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.56.05:172][780]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.56.05:172][780]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.56.05:173][780]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.56.05:186][780]LogInit: FAudioDevice initialized.
+[2021.03.09-18.56.05:194][780]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.56.05:195][780]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.56.05
+[2021.03.09-18.56.05:195][780]LogWorld: Bringing up level for play took: 0.000422
+[2021.03.09-18.56.05:195][780]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.03.09-18.56.05:198][780]PIE: Server logged in
+[2021.03.09-18.56.05:199][780]PIE: Play in editor total start time 0.189 seconds.
+[2021.03.09-18.56.05:202][780]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-18.56.05:202][780]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.56.05:210][780]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.56.05:212][780]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.56.05:214][780]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.56.34:717][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.56.34:717][545]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.56.34:718][545]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:040E
+[2021.03.09-18.56.34:718][545]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-18.56.34:718][545]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-18.56.34:718][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.56.34:728][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-18.56.34:732][545]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-18.56.34:781][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-18.56.34:782][545]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F33EDC1080), frame # 430545
+[2021.03.09-18.56.34:782][545]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F41044BE00), frame # 430545
+[2021.03.09-18.56.34:784][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.03.09-18.56.34:894][546]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.03.09-18.56.34:948][546]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.03.09-18.56.38:359][741]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.56.38:364][741]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-18.57.31:812][931]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.57.31:911][931]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.09-18.57.32:872][972]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNoteE7297A68431C5531913099ACE4741609.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.57.32:885][972]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.57.32:885][972]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.59.02:488][305]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.59.02:567][305]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.03.09-18.59.03:655][354]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote455BB5CD4B746FA72049BAB13EAB1747.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.59.03:670][354]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.59.03:670][354]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.59.16:703][123]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote849F79B1443521C972CB9EB5FA54BD84.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.59.16:721][123]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.59.16:721][123]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.59.39:497][475]BlueprintLog: New page: Compile Stamina_pickup_withNote
+[2021.03.09-18.59.39:578][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.03.09-18.59.40:506][510]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Stamina_pickup_withNote1023512748099350408C1783A7F25D37.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/Models/Pickups/Stamina_pickup_withNote.uasset'
+[2021.03.09-18.59.40:522][510]AssetCheck: New page: Asset Save: Stamina_pickup_withNote
+[2021.03.09-18.59.40:522][510]LogContentValidation: Display: Validating Blueprint /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote
+[2021.03.09-18.59.44:581][751]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.09-18.59.44:599][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.09-18.59.44:599][751]PIE: New page: PIE session: Base_Level (9 Mar 2021, 12:59:44)
+[2021.03.09-18.59.44:601][751]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-18.59.44:604][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003841s)
+[2021.03.09-18.59.44:604][751]LogAIModule: Creating AISystem for world Base_Level
+[2021.03.09-18.59.44:604][751]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F41A5C6200), frame # 441751
+[2021.03.09-18.59.44:604][751]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F2F3D807C0), frame # 441751
+[2021.03.09-18.59.44:605][751]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2021.03.09-18.59.44:605][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Base_Level.Base_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level (0.005130s)
+[2021.03.09-18.59.44:644][751]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.09-18.59.44:645][751]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.09-18.59.44:645][751]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.09-18.59.44:646][751]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.09-18.59.44:646][751]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.09-18.59.44:648][751]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.09-18.59.44:648][751]LogAudioMixer: Display: 1: FrontRight
+[2021.03.09-18.59.44:786][751]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.09-18.59.44:787][751]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.09-18.59.44:787][751]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.09-18.59.44:787][751]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.09-18.59.44:787][751]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.09-18.59.44:802][751]LogInit: FAudioDevice initialized.
+[2021.03.09-18.59.44:809][751]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.09-18.59.44:810][751]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level.Base_Level up for play (max tick rate 60) at 2021.03.09-15.59.44
+[2021.03.09-18.59.44:811][751]LogWorld: Bringing up level for play took: 0.000548
+[2021.03.09-18.59.44:811][751]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.03.09-18.59.44:815][751]PIE: Server logged in
+[2021.03.09-18.59.44:816][751]PIE: Play in editor total start time 0.221 seconds.
+[2021.03.09-18.59.44:820][751]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x0) is flushing async loading
+[2021.03.09-18.59.44:820][751]LogStreaming: Display: Flushing async loaders.
+[2021.03.09-18.59.44:831][751]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_0x1) is flushing async loading
+[2021.03.09-18.59.44:833][751]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x0) is flushing async loading
+[2021.03.09-18.59.44:836][751]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/UEDPIE_0_1x1) is flushing async loading
+[2021.03.09-19.00.14:273][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-19.00.14:273][504]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Base_Level
+[2021.03.09-19.00.14:274][504]LogScript: Warning: Accessed None trying to read property InteractionWidget
+	Stamina_pickup_withNote_C /Game/ThirdPersonBP/Maps/UEDPIE_0_0x0.Level_1:PersistentLevel.Stamina_pickup_withNote_2
+	Function /Game/Models/Pickups/Stamina_pickup_withNote.Stamina_pickup_withNote_C:ExecuteUbergraph_Stamina_pickup_withNote:04E1
+[2021.03.09-19.00.14:274][504]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property InteractionWidget". Blueprint:  Stamina_pickup_withNote Function:  Execute Ubergraph Stamina Pickup With Note Graph:  EventGraph Node:  Remove from Parent
+[2021.03.09-19.00.14:274][504]LogWorld: UWorld::CleanupWorld for Base_Level, bSessionEnded=true, bCleanupResources=true
+[2021.03.09-19.00.14:274][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-19.00.14:282][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.09-19.00.14:286][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.09-19.00.14:338][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.09-19.00.14:339][504]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F2F3D807C0), frame # 443504
+[2021.03.09-19.00.14:339][504]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F41A5C6200), frame # 443504
+[2021.03.09-19.00.14:342][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.03.09-19.00.14:461][505]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.03.09-19.00.14:511][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.09-19.00.37:281][862]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-19.00.37:288][862]LogSlate: Window 'Message Log' being destroyed
+[2021.03.09-19.00.56:631][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.03.09-19.00.56:656][ 11]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_Level319D93F342E067727EE4B5A99B587C86.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level.umap'
+[2021.03.09-19.00.56:789][ 11]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Base_Level_BuiltDataAD5D79BE4E0CC0F96BD19983FF4D6F29.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Base_Level_BuiltData.uasset'
+[2021.03.09-19.00.56:806][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-19.00.56:806][ 11]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Base_Level.Base_Level
+[2021.03.09-19.00.56:806][ 11]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Base_Level_BuiltData.Base_Level_BuiltData
+[2021.03.09-19.00.57:436][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.03.09-19.00.58:795][ 37]LogSlate: Window 'Save Content' being destroyed
+[2021.03.09-19.00.58:963][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.03.09-19.00.58:985][ 37]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1A8295CD647A3D4B25895288A155F9455.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1.umap'
+[2021.03.09-19.00.58:987][ 37]LogFileHelpers: Saving map 'Level_1' took 0.061
+[2021.03.09-19.00.58:987][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-19.00.59:006][ 37]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltDataE17843304B770EEC4680CD80B88067A2.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-19.00.59:007][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_1_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset" SILENT=true
+[2021.03.09-19.00.59:021][ 37]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_1_BuiltData916FFE6740EF23D060AE8B897B1A1C7D.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2021.03.09-19.00.59:057][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.03.09-19.00.59:078][ 37]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_576776F50411C2C7448C4A99C74EFCBF1.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5.umap'
+[2021.03.09-19.00.59:080][ 37]LogFileHelpers: Saving map 'Level_5' took 0.057
+[2021.03.09-19.00.59:080][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level_5_BuiltData" FILE="../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5_BuiltData.uasset" SILENT=true
+[2021.03.09-19.00.59:097][ 37]LogSavePackage: Moving '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Saved/Level_5_BuiltDataFFCF2844482845AFADBD789A107D9166.tmp' to '../../../../../../Unreal4/Masters/Module_2/DerrickDorisAd/Content/ThirdPersonBP/Maps/Level_5_BuiltData.uasset'
+[2021.03.09-19.00.59:124][ 37]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.09-19.00.59:124][ 37]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level_1.Level_1
+[2021.03.09-19.00.59:124][ 37]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level_1_BuiltData.Level_1_BuiltData
+[2021.03.09-19.00.59:124][ 37]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level_5.Level_5
+[2021.03.09-19.00.59:124][ 37]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level_5_BuiltData.Level_5_BuiltData
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.03:536][282]SourceControl: fatal: D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Program Files/EpicGames/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Unreal4/Masters/Module_2/DerrickDorisAd'
+[2021.03.09-19.01.24:775][282]LogSlate: Window 'Submit Files' being destroyed
+[2021.03.09-19.01.26:913][282]LogSourceControl: commit successful: [adding-extra-player 60af9be] started to fix stamina note but not yet
+[2021.03.09-19.01.27:104][282]SourceControl: [adding-extra-player 60af9be] started to fix stamina note but not yet
+[2021.03.09-19.01.27:104][282]SourceControl:  12 files changed, 0 insertions(+), 0 deletions(-)
+[2021.03.09-19.01.27:104][282]SourceControl:  delete mode 100644 Content/Models/Interact_Notes/Photo_1.uasset
+[2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/Models/Pickups/Stamina_pickup_withNote.uasset (91%)
+[2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset (66%)
+[2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/ThirdPersonBP/Maps/Level_1.umap (69%)
+[2021.03.09-19.01.27:104][282]SourceControl:  rewrite Content/Widgets/Stamina_Note.uasset (88%)
+[2021.03.09-19.01.27:117][282]SourceControl: Commited [adding-extra-player 60af9be] started to fix stamina note but not yet.
